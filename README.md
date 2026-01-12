@@ -6,7 +6,8 @@ A real-world GenAI agent for AutoStream, designed to handle inquiries, detect hi
 
 ### Prerequisites
 - Python 3.9+
-- **Ollama** installed locally (to run the Llama 3 model).
+- **Ollama** installed locally (to run the Llama 3 model) or any viable LLM api would suffice.
+  
 
 ### Installation
 
@@ -56,3 +57,4 @@ State is managed using a `TypedDict` Schema (`AgentState`) passed between nodes:
 - `main.py`: CLI entry point and event loop.
 - `data/knowledge_base.md`: Static data for RAG.
 - `requirements.txt`: Project dependencies.
+
