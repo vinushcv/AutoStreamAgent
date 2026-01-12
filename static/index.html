@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoStream AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>AutoStream AI</h1>
+            <p class="status">● Online</p>
+        </header>
+        
+        <div id="messages" class="messages-area">
+            <div class="message bot">
+                <div class="bubble">Hi! I'm the AutoStream assistant. How can I help you today?</div>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Type your message..." autocomplete="off">
+            <button id="sendBtn">
+                <svg viewBox="0 0 24 24" fill="none" class="send-icon">
+                    <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
