@@ -52,9 +52,10 @@ State is managed using a `TypedDict` Schema (`AgentState`) passed between nodes:
 
 
 
-## 4. File Structure
+## 3. File Structure
 - `agent.py`: Core logic, graph definition, nodes, and tool implementation.
 - `main.py`: CLI entry point and event loop.
 - `data/knowledge_base.md`: Static data for RAG.
 - `requirements.txt`: Project dependencies.
+
 
